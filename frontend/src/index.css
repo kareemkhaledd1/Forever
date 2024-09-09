@@ -11,9 +11,15 @@
 }
 
 * {
-  font-family: Outfit;
+  font-family: Outfit,sans-serif;
 }
 
 a.active hr {
   @apply block w-2/4;
+}
+
+@media (max-width: 768px) {
+  a.active {
+    @apply bg-black text-white;
+  }
 }

@@ -28,8 +28,8 @@ const LatestCollection = () => {
 
 
   return (
-    <div className="my-10">
-      <div className="text-center py-8 text-3xl ">
+    <section className="my-10">
+      <div className="text-center py-8 sm:text-3xl text-2xl ">
         <Title text1="Latest" text2="Collections" />
         <p className="w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600">
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -48,7 +48,7 @@ const LatestCollection = () => {
                 />
             ))}
         </div>
-    </div>
+    </section>
   );
 };
 
